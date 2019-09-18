@@ -4,16 +4,12 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    public class MC
+    public class MC : Vehicle
     {
-        public string LicensePlate { get; set; }
-        public DateTime Date { get; set; }
+        public MC()
+        { }
 
-        /// <summary>
-        /// Function to get Price
-        /// </summary>
-        /// <returns>Price in decimal form</returns>
-        public decimal Price()
+        public override decimal Price()
         {
             return 125;
         }
@@ -22,7 +18,7 @@ namespace ClassLibrary
         /// Fucntion to get vechile type
         /// </summary>
         /// <returns>Vechicle type in string form.</returns>
-        public string VechicleType()
+        public override string VechicleType()
         {
             return "MC";
         }
