@@ -7,8 +7,9 @@ namespace ClassLibaryTest
     public class UnitTest1
     {
         Car car;
+        MC mc;
         [TestMethod]
-        public void  CarPriceTest()
+        public void CarPriceTest()
         {
             //Arrange
             car = new Car();
@@ -34,6 +35,34 @@ namespace ClassLibaryTest
             //Assert
             Assert.AreEqual("Car", type);
 
+        }
+
+        [TestMethod]
+        public void MCTypeTest()
+        {
+            //Arrange
+            mc = new MC();
+            string type;
+
+            //Act
+            type = mc.VechicleType();
+
+            //Assert
+            Assert.AreEqual("MC", type);
+        }
+
+        [TestMethod]
+        public void MCPriceTest()
+        {
+            //Arrange
+            mc = new MC();
+            decimal price;
+
+            //Act
+            price = mc.Price();
+
+            //Assert
+            Assert.AreEqual(125, price);
         }
     }
 }
