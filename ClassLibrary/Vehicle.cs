@@ -17,6 +17,8 @@ namespace ClassLibrary
         }
         public DateTime Date;
 
+        public bool BroBizz;
+
         /// <summary>
         /// Function to get Price
         /// </summary>
