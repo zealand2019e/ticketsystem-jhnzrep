@@ -6,7 +6,15 @@ namespace ClassLibrary
 {
     public abstract class Vehicle
     {
-        public string LicensePlate;
+        public string LicensePlate
+        {
+            set
+            {
+                if (value.Length > 70) throw new Exception("Too many chars.");
+                LicensePlate = value;
+            }
+            get { return LicensePlate; }
+        }
         public DateTime Date;
 
         /// <summary>

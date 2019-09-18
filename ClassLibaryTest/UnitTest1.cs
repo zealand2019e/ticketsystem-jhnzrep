@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ClassLibrary;
+using System;
 
 namespace ClassLibaryTest
 {
@@ -63,6 +64,17 @@ namespace ClassLibaryTest
 
             //Assert
             Assert.AreEqual(125, price);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception), "Too many chars.")]
+        public void VehicleLicensePlate()
+        {
+            //Arrange
+            Vehicle vehicle = new MC();
+
+            //Act
+            vehicle.LicensePlate = "12345678";
         }
     }
 }
