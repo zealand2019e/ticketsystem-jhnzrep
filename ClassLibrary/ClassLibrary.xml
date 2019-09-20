@@ -27,6 +27,11 @@
             Licesnse plate proprety. Max 7 characters.
             </summary>
         </member>
+        <member name="P:ClassLibrary.Vehicle.BroBizz">
+            <summary>
+            Boolean - Discount
+            </summary>
+        </member>
         <member name="M:ClassLibrary.Vehicle.Price">
             <summary>
             Function to get Price

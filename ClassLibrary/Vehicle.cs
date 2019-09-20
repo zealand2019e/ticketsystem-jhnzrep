@@ -13,7 +13,7 @@ namespace ClassLibrary
         {
             set
             {
-                if (value.Length > 70) throw new Exception("Too many chars.");
+                if (value.Length > 7) throw new Exception("Too many chars.");
                 LicensePlate = value;
             }
             get { return LicensePlate; }
