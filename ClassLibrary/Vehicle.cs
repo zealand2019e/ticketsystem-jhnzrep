@@ -6,6 +6,9 @@ namespace ClassLibrary
 {
     public abstract class Vehicle
     {
+        /// <summary>
+        /// Licesnse plate proprety. Max 7 characters.
+        /// </summary>
         public string LicensePlate
         {
             set
@@ -17,7 +20,11 @@ namespace ClassLibrary
         }
         public DateTime Date;
 
-        public bool BroBizz;
+
+        /// <summary>
+        /// Boolean - Discount
+        /// </summary>
+        public bool BroBizz { get; set; }
 
         /// <summary>
         /// Function to get Price

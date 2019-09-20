@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:ClassLibrary.Car.Price">
+            <summary>
+            Function to get Price
+            </summary>
+            <returns>Price in decimal form</returns>
+        </member>
+        <member name="M:ClassLibrary.Car.VechicleType">
+            <summary>
+            Fucntion to get vechile type
+            </summary>
+            <returns>Vechicle type in string form.</returns>
+        </member>
+        <member name="M:ClassLibrary.MC.VechicleType">
+            <summary>
+            Fucntion to get vechile type
+            </summary>
+            <returns>Vechicle type in string form.</returns>
+        </member>
+        <member name="P:ClassLibrary.Vehicle.LicensePlate">
+            <summary>
+            Licesnse plate proprety. Max 7 characters.
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.Price">
+            <summary>
+            Function to get Price
+            </summary>
+            <returns>Price in decimal form</returns>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.VechicleType">
+            <summary>
+            Fucntion to get vechile type
+            </summary>
+            <returns>Vechicle type in string form.</returns>
+        </member>
+    </members>
+</doc>

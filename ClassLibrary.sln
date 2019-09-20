@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{68DCEA9D-2012-4E55-BC6C-7F5B0A18C7D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibaryTest", "ClassLibaryTest\ClassLibaryTest.csproj", "{1CF1C1B2-ECDA-491F-A4A2-62D621995ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibaryTest", "ClassLibaryTest\ClassLibaryTest.csproj", "{1CF1C1B2-ECDA-491F-A4A2-62D621995ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storebæltsbroen", "Storebæltsbroen\Storebæltsbroen.csproj", "{F8CF51A0-B7AF-4D23-91A6-C73A93CF5B57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1CF1C1B2-ECDA-491F-A4A2-62D621995ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF1C1B2-ECDA-491F-A4A2-62D621995ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF1C1B2-ECDA-491F-A4A2-62D621995ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CF51A0-B7AF-4D23-91A6-C73A93CF5B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CF51A0-B7AF-4D23-91A6-C73A93CF5B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CF51A0-B7AF-4D23-91A6-C73A93CF5B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CF51A0-B7AF-4D23-91A6-C73A93CF5B57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

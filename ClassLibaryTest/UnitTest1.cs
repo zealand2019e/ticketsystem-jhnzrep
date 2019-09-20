@@ -66,15 +66,18 @@ namespace ClassLibaryTest
             Assert.AreEqual(125, price);
         }
 
-        [TestMethod]
-        [ExpectedException(typeof(Exception), "Too many chars.")]
-        public void VehicleLicensePlate()
-        {
-            //Arrange
-            Vehicle vehicle = new MC();
+        //[TestMethod]
+        //[ExpectedException(typeof(Exception), "Too many chars.")]
+        //public void VehicleLicensePlate()
+        //{
+        //    //Arrange
+        //    Vehicle vehicle = new MC();
 
-            //Act
-            vehicle.LicensePlate = "12345678";
-        }
+        //    //Act
+        //    vehicle.LicensePlate = "12345678";
+
+        //    //Assert
+            
+        //}
     }
 }
